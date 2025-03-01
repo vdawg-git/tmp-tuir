@@ -2,6 +2,9 @@
 	"name": "tmp",
 	"module": "index.tsx",
 	"type": "module",
+	"scripts": {
+		"dev": "bun --watch ."
+	},
 	"devDependencies": {
 		"@types/bun": "latest",
 		"@types/node": "22.13.1",
